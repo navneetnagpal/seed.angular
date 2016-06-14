@@ -1,0 +1,7 @@
+<div class="test-list">
+	<ul class="list-group">
+		<li ng-repeat="item in list" class="list-group-item">
+			{{item.name}}
+		</li>
+	</ul> 
+</div>
