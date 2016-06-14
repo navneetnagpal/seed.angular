@@ -14,6 +14,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     merge = require('merge-stream'),
     plumber = require('gulp-plumber'),
+    runSequence = require('run-sequence'),
     sourcemaps = require('gulp-sourcemaps');
 var production = false;
 var config = new Config();
@@ -99,6 +100,17 @@ defineScriptTask(gulp, {
 gulp.task('scripts:all', ['scripts.core', 'scripts.app']);
 
 gulp.task('build', ['styles', 'scripts:all']);
+ 
+
+gulp.task('build:all', function() {
+    return gulp.start('build:all:dev');
+});
+
+
+
+gulp.task('build:all:dev', function(cb) {
+    return runSequence('clean', ['styles', 'scripts:all'],  'test', cb);
+});
 
 
 /*
@@ -113,7 +125,7 @@ gulp.task('static-connect', function () {
 
 gulp.task('serve',['static-connect'])*/
 
-gulp.task('default', ['build']);
+gulp.task('default', ['build:all']);
 
 
 

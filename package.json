@@ -1,5 +1,5 @@
 {
-  "name": "seed.angular-gulp",
+  "name": "seed.angular",
   "version": "1.0.0",
   "description": "A seed project",
   "main": "gulpfile.config.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navneetnagpal/seed.angular-gulp.git"
+    "url": "git+https://github.com/navneetnagpal/seed.angular.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/navneetnagpal/seed.angular-gulp/issues"
+    "url": "https://github.com/navneetnagpal/seed.angular/issues"
   },
-  "homepage": "https://github.com/navneetnagpal/seed.angular-gulp#readme",
+  "homepage": "https://github.com/navneetnagpal/seed.angular#readme",
   "browserify": {
     "transform": [
       "browserify-ng-html2js"
@@ -68,6 +68,7 @@
     "merge-stream": "^1.0.0",
     "mkdirp": "^0.5.1",
     "phantomjs-prebuilt": "^2.1.7",
+    "run-sequence": "^1.2.1",
     "superstatic": "^4.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
