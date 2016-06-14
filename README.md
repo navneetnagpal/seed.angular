@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # movies.portal
 A portal to manage movies listing
 - To Build
@@ -9,3 +10,7 @@ A portal to manage movies listing
 -	http-server on /src folder
 
 
+=======
+# seed.angular
+A seed project with angular to start 
+>>>>>>> fcebf9f484399bd5825c2cc3f6875ee254bec118
