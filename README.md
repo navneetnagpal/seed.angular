@@ -1,6 +1,6 @@
 
 # Seed project for angular 
-A project to kick start an app for angular
+A project to kick start
 
 # Steps to run
 - npm install
