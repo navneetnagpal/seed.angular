@@ -57,7 +57,7 @@ gulp.task('clean', function(cb) {
 
 gulp.task('test', function() {
     return karma.start({
-        configFile: __dirname + '\\karma.conf.js'
+        configFile: __dirname + '/karma.conf.js'
     });
 });
 
