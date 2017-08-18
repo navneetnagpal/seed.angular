@@ -61,6 +61,7 @@
     "gulp-sourcemaps": "^1.6.0",
     "gulp-util": "^3.0.7",
     "istanbul": "^0.4.3",
+    "jasmine-core": "^2.7.0",
     "karma": "^0.13.22",
     "karma-browserify": "^5.0.5",
     "karma-coverage": "^1.0.0",
